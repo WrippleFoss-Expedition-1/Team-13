@@ -1,3 +1,4 @@
+
 STUDENT'S PERSONAL ASSISSTANT
 
 A BRIEF OVERVIEW-
@@ -11,4 +12,3 @@ MOTIVATION-
 HOW CAN IT HELP ?
 
    This personal assisstant will keep a check on your activities to make things simpler for you. It will keep you updated about your  assignments, attendance, class timings etc with detailed information on each. Besides, you can also use it for reminding you your pending activites.
-
