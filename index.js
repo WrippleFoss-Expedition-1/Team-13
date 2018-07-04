@@ -1,7 +1,14 @@
-var port='8081';
-var http=require('http');
+const http = require('http')
+const port = 8081
+const requestHandler = (request, response) => {
+  console.log(request.url)
+  response.end('Hello Node.js Server!')
+}
+const server = http.createServer(requestHandler)
+server.listen(port, (err) => {
+  if (err) {
+    return console.log('Eh! what an error', err)
+  }
 
-http.createServer(function(req,res){
-    res.end('Basic Server');
-	console.log('Server running at port '+port);
-}).listen(port);
+  console.log(`server is listening on ${port}`)
+})
